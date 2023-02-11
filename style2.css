@@ -5,8 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/bg.png");
+    background-image:    url("./assets/bg.png");
     background-size: cover;
     background-attachment: fixed;
     text-align: center
@@ -20,9 +19,13 @@ body{
     justify-content:space-between;
     height: 60px;
 }
+img{
+  height: 25px;
+}
+
 .line {
     width: 1px;
-    height: 50px;
+    height: 30px;
     background-color: #fff;
     margin-left: 20px;
   }
@@ -30,7 +33,7 @@ body{
 ul{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     cursor: pointer;
     list-style: none;
     font-size:15px;
@@ -38,7 +41,7 @@ ul{
     font-style:normal;
     font-weight: 600;
     color: #ffffff;
-    margin-right: 300px;
+    margin-right: 350px;
 }
 .buybutton{
     padding: 5px 25px;
